@@ -46,4 +46,4 @@ cd "$SLOC"
 # Cleaning up
 rm "$MOD"
 
-echo "All done.. check to make sure mod is indeed installed at "$INSTALLLOC""
+echo "All done.. check to make sure mod is indeed installed at \"$INSTALLLOC\""
