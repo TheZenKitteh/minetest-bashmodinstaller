@@ -36,12 +36,12 @@ wget "$REPO""$MOD"
 
 # Backing up old mod
 cd "$INSTALLLOC"
-"$SLOC"/7z a -t7z -mx9 "$SLOC"/Mod-Backups/"$1""$NOW".7z "$1"
+"$SLOC"/Mod-Packing-Directory/7z a -t7z -mx9 "$SLOC"/Mod-Backups/"$1""$NOW".7z "$1"
 rm -rf "$1"
 cd "$SLOC"
 
 # Extracting mod to mod folder
-./7z x "$MOD" -o"$INSTALLLOC"
+./Mod-Packing-Directory/7z x "$MOD" -o"$INSTALLLOC"
 
 # Cleaning up
 rm "$MOD"
