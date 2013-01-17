@@ -22,7 +22,7 @@ SLOC=$(pwd)
 NOW=$(date +"%m_%d_%Y--%H:%M:%S")
 
 # Change REPO URL to match your preferred repo
-REPO="https://raw.github.com/TheZenKitteh/minetest-bashmodinstaller/master/Repo/"
+REPO="https://raw.github.com/TheZenKitteh/minetest-modrepo/master/"
 
 # Fetching packages list
 rm ./packages.txt
