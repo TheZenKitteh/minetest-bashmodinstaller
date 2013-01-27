@@ -8,12 +8,22 @@ compresses to 7z archive.
 
 mtmodinstall:
 # How to use:
+# Edit the INSTALLLOC varible to point to your mod folder
 # Update REPO URL if needed then
 # chmod u+x nameofscript
 # issue ./nameofthisscript modname
 #
 # Example:
 # ./mtmodinstall.sh industrial
+
+mtmodinstall-git:
+# How to use:
+# Edit the INSTALLLOC varible to point to your mod folder
+# chmod u+x nameofscript
+# issue ./nameofthisscript modname
+#
+# Example:
+# ./mtmodinstall-git.sh industrial
 
 
 packmod-7z:

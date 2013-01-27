@@ -1,4 +1,11 @@
 #!/bin/bash
+# How to use:
+# Edit the INSTALLLOC varible to point to your mod folder
+# chmod u+x nameofscript
+# issue ./nameofthisscript modname
+#
+# Example:
+# ./mtmodinstall-git.sh industrial
 
 # Chane below to the location of your minetest mods folder
 #INSTALLLOC="$HOME/.minetest/usermods"

@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 # How to use:
+# Edit the INSTALLLOC varible to point to your mod folder
 # Update REPO URL if needed then
 # chmod u+x nameofscript
 # issue ./nameofthisscript modname
